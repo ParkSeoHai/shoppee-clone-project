@@ -2,6 +2,9 @@
     .header__cart-wrap:hover .header__cart-list {
         display: block;
     }
+    .header__search-select:hover .header__search-options {
+        display: block;
+    }
 }
 
 /* Mobile & Tablet */
@@ -32,6 +35,10 @@
     }
 
     .mobile-tablet-cart-checked:checked ~ .header__cart-list {
+        display: block;
+    }
+
+    .header__search-select-mobile-tablet-checked:checked ~ .header__search-options {
         display: block;
     }
 
@@ -101,6 +108,9 @@
 
 /* Mobile */
 @media (max-width: 739px) {
+    :root {
+        --header-height: 60px;
+    }
     .hiden-on-mobile {
         display: none;
     }

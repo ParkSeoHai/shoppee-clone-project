@@ -806,6 +806,7 @@ body {
     font-size: 1.4rem;
     cursor: pointer;
     position: relative;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .header__search-select::before {
@@ -813,10 +814,6 @@ body {
     position: absolute;
     height: 24px;
     border-left: 1px solid #ccc;
-}
-
-.header__search-select:hover .header__search-options {
-    display: block;
 }
 
 .header__search-select-label {
