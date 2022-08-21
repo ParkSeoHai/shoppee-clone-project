@@ -1,3 +1,9 @@
+@media (min-width: 1024px) {
+    .header__cart-wrap:hover .header__cart-list {
+        display: block;
+    }
+}
+
 /* Mobile & Tablet */
 @media (max-width: 1023px) {
     :root {

@@ -634,10 +634,6 @@ body {
     color: var(--white-color);
 }
 
-.header__cart-wrap:hover .header__cart-list {
-    display: block;
-}
-
 .header__cart-wrap-amount {
     position: absolute;
     padding: 1px 8px;
