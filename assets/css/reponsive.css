@@ -25,6 +25,10 @@
         padding: 0 calc((100% - 654px) / 2);
     }
 
+    .mobile-tablet-cart-checked:checked ~ .header__cart-list {
+        display: block;
+    }
+
     .header__cart-list::after {
         display: none;
     }
@@ -159,12 +163,6 @@
     }
     .header__search-history {
         min-width: 367px;
-    }
-    .header__search-select:focus .header__search-options {
-        display: block;
-    }
-    .header__cart-wrap:focus .header__cart-list {
-        display: block;
     }
 
 

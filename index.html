@@ -231,10 +231,12 @@
                     </div>
 
                     <div class="header__cart">
-                        <div class="header__cart-wrap">
+                        <label for="cart-wrap-mobile-check" class="header__cart-wrap">
                             <i class="header__cart-wrap-icon fa-solid fa-cart-shopping"></i>
                             <span class="header__cart-wrap-amount">3</span>
                             <!-- No cart: header__cart-list-no-cart -->
+
+                            <input type="checkbox" hidden id="cart-wrap-mobile-check" class="mobile-tablet-cart-checked">
                             <div class="header__cart-list">
                                 <img src="./assets/image/no-cart.jpg" alt="" class="header__cart-wrap-no-cart-img">
                                 <span class="header__cart-wrap-no-cart-no-mesgage">Chưa có sản phẩm</span>
@@ -317,7 +319,7 @@
 
                                 <a href="" class="header__cart-list-view-cart btn btn--primary">Xem giỏ hàng</a>
                             </div>
-                        </div>
+                        </label>
                     </div>
                 </div>
             </div>
